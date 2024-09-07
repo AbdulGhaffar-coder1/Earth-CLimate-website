@@ -1,0 +1,107 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light background for readability */
+    background: linear-gradient(to bottom, #e9ecef, #ffffff);
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Main Content Area */
+  main {
+    padding: 20px;
+    max-width: 800px; /* Limits the width of the content */
+    margin: 20px auto; /* Centers the main content */
+    background-color: white; /* White background for the article */
+    border-radius: 10px; /* Rounded corners for the content area */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Article Headings */
+  h1 {
+    font-size: 2.5em; /* Main heading size */
+    color: #2e8b57; /* Primary color for headings */
+    margin-bottom: 15px; /* Space below heading */
+  }
+  
+  h2, h3, h4 {
+    color: #333; /* Darker color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+  }
+  
+  h2 {
+    font-size: 2em; /* Secondary heading size */
+  }
+  
+  h3 {
+    font-size: 1.75em; /* Tertiary heading size */
+  }
+  
+  h4 {
+    font-size: 1.5em; /* Quaternary heading size */
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 1.2em; /* Paragraph text size */
+    color: #555; /* Dark gray for text */
+    margin-bottom: 15px; /* Space below paragraphs */
+  }
+  
+  /* Unordered List */
+  ul {
+    margin: 15px 0; /* Space above and below lists */
+    padding-left: 20px; /* Indent lists */
+  }
+  
+  ul li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  /* Read More Button */
+  .read-more {
+    display: inline-block; /* Make the link a block for better styling */
+    padding: 10px 20px; /* Space inside the button */
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Space above the button */
+  }
+  
+  .read-more:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4CAF50; /* Same color a*/
+  }

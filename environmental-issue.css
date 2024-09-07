@@ -1,0 +1,103 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* Light blue to white gradient */
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #00796b; /* Dark teal color */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc80; /* Light orange on hover */
+  }
+  
+  /* Main Content Area */
+  main {
+    padding: 20px;
+    max-width: 800px; /* Limits the width of the content */
+    margin: 20px auto; /* Centers the main content */
+    background-color: white; /* White background for the article */
+    border-radius: 10px; /* Rounded corners for the content area */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Article Headings */
+  h1 {
+    font-size: 2.5em; /* Main heading size */
+    color: #00796b; /* Dark teal color */
+    margin-bottom: 15px; /* Space below heading */
+  }
+  
+  h2, h3, h4 {
+    color: #333; /* Dark gray for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+  }
+  
+  h2 {
+    font-size: 2em; /* Secondary heading size */
+  }
+  
+  h3 {
+    font-size: 1.75em; /* Tertiary heading size */
+  }
+  
+  h4 {
+    font-size: 1.5em; /* Quaternary heading size */
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 1.2em; /* Paragraph text size */
+    color: #555; /* Dark gray for text */
+    margin-bottom: 15px; /* Space below paragraphs */
+  }
+  
+  /* Unordered List */
+  ul {
+    margin: 15px 0; /* Space above and below lists */
+    padding-left: 20px; /* Indent lists */
+  }
+  
+  ul li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #00796b; /* Same color as the nav bar */
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  

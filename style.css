@@ -1,0 +1,63 @@
+nav {
+    background-color: #00796b; /* Dark teal color */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc80; /* Light orange on hover */
+  }
+
+
+
+/* Main content area with background image */
+main {
+   
+    background-size: cover; /* Cover the entire main area */
+    background-position: center;
+    min-height: calc(100vh - 100px); /* Adjust height based on nav and footer */
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+margin-top: 50px; }
+    
+    .content {
+        background: rgba(255, 255, 255, 0.7); /* Slight white overlay for readability */
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .featured-article {
+        background: rgba(255, 255, 255, 0.7); /* Slight white overlay for readability */
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 300px; /* Limits the width to 300px */
+        margin: 0 auto; /* Centers the div horizontally */
+        text-align: center; /* Centers text inside the div */
+      }
+      footer {
+        background-color: #00796b; /* Same color as the nav bar */
+        text-align: center;
+        padding: 10px;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+      
